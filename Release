@@ -1,0 +1,8 @@
+Origin: resistor4u
+Label: resistor4u's repo
+Suite: stable
+Version: 1.0
+Codename: resistor4u
+Architecture: iphoneos-arm
+Components: main
+DescriptionL resistor4u's repo (from Teggers Repo)
