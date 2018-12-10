@@ -22,7 +22,7 @@ Version: 0.2.1-1
 Architecture: iphoneos-arm
 Maintainer: Teggers
 Installed-Size: 684
-Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
+Depends: arp-scan, dsniff, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
 Filename: deb_files/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
 Size: 261272
 MD5sum: b311ce42b739b6d18be8b8db74768159
