@@ -72,16 +72,16 @@ Name: netKillUIbeta
 
 Package: ag
 Version: 2.2.0
-Architecture: arm64
-Maintainer: resistor4u <resistor4you@gmail.com>
+Architecture: iphoneos-arm
+Maintainer: resistor4u
 Depends: libpcre
 Filename: debs/ag.deb
 Size: 
 MD5sum: 
 SHA1: 
 SHA256: 
-Section: Hacktools
-Description: 
+Section: Utilities
+Description: A code-searching tool similar to ack, but faster.
 Tag: role::hacker
 Author: Geoff Greer <geoff@greer.fm>
 Depiction: https://github.com/ggreer/the_silver_searcher
