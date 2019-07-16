@@ -1,30 +1,13 @@
-Package: ag
-Version: 2.2.0
-Architecture: iphoneos-arm
-Maintainer: resistor4u
-Depends: libpcre
-Filename: ./debs/ag.deb
-Size: 24828
-MD5sum: e04c2bbb844b1b22149b2cba49c76c41
-SHA1: 1eab92c13bafb3cb3102da5e54a4675153791256
-SHA256: 0eae3624cf8ac897cb46fb5bdf1cf294387d58a891e9bfb56fafad96d0f313eb
-Section: Utilities
-Description: A code-searching tool similar to ack, but faster.
-Tag: role::hacker
-Author: Geoff Greer <geoff@greer.fm>
-Depiction: https://github.com/ggreer/the_silver_searcher
-Name: TheSilverSearcher
-
 Package: arp-scan
 Version: 1.8.1-1
 Architecture: iphoneos-arm
 Maintainer: Trcx <trcx528@gmail.com>
 Depends: libpcap
-Filename: ./debs/arp-scan.deb
-Size: 226508
-MD5sum: 842bd5db3ef5b78c1a0c476e10df2bc9
-SHA1: 3c530be324e8bfc51d85a8a96e1569922dfa5037
-SHA256: 4db0e47fdfa48e411cdb91a62482e99a33f9381ac8a8a3e0372f1e79545726ac
+Filename: debs/arp-scan.deb
+Size: 283502
+MD5sum: 9c084377cdcce84f54e6f3fa73bbb817
+SHA1: 8556be2a6cdd27c8d98a7d03d97303424c512051
+SHA256: cad8b1ce0a0f60375501fb60258d0c340587dc6009cd56db585d64a0faedf6cf
 Section: Utilities
 Description: ARP scanning and fingerprinting tool
  arp-scan is a command-line tool that uses the ARP protocol to discover and fingerprint IP hosts on the local network. It is available under the GPL licence (GPLv3).
@@ -40,11 +23,11 @@ Architecture: iphoneos-arm
 Maintainer: Trcx <trcx528@gmail.com>
 Conflicts: org.mulliner.dsniff
 Replaces: org.mulliner.dsniff
-Filename: ./debs/dsniff.deb
-Size: 672912
-MD5sum: 3d8fe851d3127f7748d19688cd73c208
-SHA1: b7a5db18902e830f819a89ed4148f0d597088fc1
-SHA256: 540787cd0ef43cf82b894fef296abfbbd1a0fc3d4725219a5a84047ed313b2cd
+Filename: debs/dsniff.deb
+Size: 2110904
+MD5sum: 9b7c8d02c2bc3fd25317e447b95e7df8
+SHA1: 76391b226237a5f7493c1cf9d3312d6b011fee53
+SHA256: 06fdbc3984b1f92dbbdec1d0c3e81721a6758684aafdfb058d417479b1651d15
 Section: Utilities
 Description: Dsniff Suite Of Pentesting Tools For iPhone
  dsniff is a collection of tools for network auditing and penetration testing. dsniff, filesnarf, mailsnarf, msgsnarf, urlsnarf, and webspy passively monitor a network for interesting data (passwords, e-mail, files, etc.). arpspoof, dnsspoof, and macof facilitate the interception of network traffic normally unavailable to an attacker (e.g, due to layer-2 switching). sshmitm and webmitm implement active monkey-in-the-middle attacks against redirected SSH and HTTPS sessions by exploiting weak bindings in ad-hoc PKI.
@@ -55,45 +38,12 @@ Name: Dsniff Suite
 Sponsor: iNinjas <repo@ininjas.com>
 
 Package: eu.teggers.netKillUI
-Version: 0.2.0-1
-Architecture: iphoneos-arm
-Maintainer: Teggers
-Installed-Size: 684
-Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: ./debs/eu.teggers.netKillUI_0.2.0-1_iphoneos-arm.deb
-Size: 261284
-MD5sum: e57b07bd11c33f9ccb43f605864165d4
-SHA1: 9c5bfd7c7c32eeecba7c37ebdcbf783560c6ea13
-SHA256: c42db801cfbde02a75970d709830be9eb90337eae8361497c1c3aec594dbcadc
-Section: Tweaks
-Description: GUI for arp-scan and arp-spoof.
- Changelog:
- 0.2.0:
- iOS 9 support.
- 0.1.9-3:
- iOS 8.3 fix (prerequisite added).
- 0.1.9:
- iOS 8.3 fix.
- 0.1.8:
- Redo table cells - add multilines
- Hold cell to rename device
- Show device vendor if known (database not great atm)
- 0.1.7:
- Make indicator icons smaller.
- 0.1.6:
- Indicator to show which IPs are being blocked.
- Tap an IP currently being blocked to unblock it.
- Kill all button added.
-Author: Teggers
-Name: netKillUIbeta
-
-Package: eu.teggers.netKillUI
 Version: 0.2.1-1
 Architecture: iphoneos-arm
 Maintainer: Teggers
 Installed-Size: 684
 Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: ./debs/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
+Filename: debs/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
 Size: 261272
 MD5sum: b311ce42b739b6d18be8b8db74768159
 SHA1: 4f5a8ef0b01298614ad60958c7306623d62ed3bc
@@ -120,12 +70,30 @@ Description: GUI for arp-scan and arp-spoof.
 Author: Teggers
 Name: netKillUIbeta
 
+Package: ag
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: resistor4u
+Depends: libpcre
+Filename: debs/ag.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 
+Section: Utilities
+Description: A code-searching tool similar to ack, but faster.
+Tag: role::hacker
+Author: Geoff Greer <geoff@greer.fm>
+Depiction: https://github.com/ggreer/the_silver_searcher
+Name: TheSilverSearcher
+
 Package: tree
 Version: 1.8.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
-Filename: ./debs/tree.deb
-Size: 26340
+Depends: 
+Filename: debs/tree.deb
+Size: 216
 MD5sum: 4db41406baf386b25a83874103fa5766
 SHA1: 427616be9e67549564aa47c6f127f853b219ab78
 SHA256: 8858849cf3126a438fd6a674bd4b12df5d226714a525621af759b81e3ffd5e39
@@ -135,4 +103,3 @@ Tag: role::hacker
 Author: Steve Baker <ice@mama.indstate.edu>
 Depiction: https://mama.indstate.edu/users/ice/tree
 Name: tree
-
