@@ -1,20 +1,3 @@
-Package: ag
-Version: 2.2.0
-Architecture: iphoneos-arm
-Maintainer: resistor4u
-Depends: pcre
-Filename: ./debs/ag.deb
-Size: 25592
-MD5sum: 34c1f734da26dfd3d639d4d1485b9d4f
-SHA1: c2030f478076e317a157d254c51d4602a83d8f36
-SHA256: 51318ff0564419831a4b9e84833730d829df50c9adca89dbbbf09f9d35132938
-Section: Utilities
-Description: A code-searching tool similar to ack, but faster.
-Tag: role::hacker
-Author: Geoff Greer <geoff@greer.fm>
-Depiction: https://github.com/ggreer/the_silver_searcher
-Name: TheSilverSearcher
-
 Package: arp-scan
 Version: 1.8.1-1
 Architecture: iphoneos-arm
@@ -33,6 +16,39 @@ Author: Roy Hills <Roy.Hills@nta-monitor.com>
 Depiction: http://ininjas.com/forum/index.php?topic=2099.0;theme=14
 Name: Arp Scan
 Sponsor: iNinjas <repo@ininjas.com>
+
+Package: com.ag.resistor4u
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: resistor4u
+Depends: pcre
+Filename: ./debs/ag.deb
+Size: 25604
+MD5sum: ca0999386bc2397795351c58fe2b56fa
+SHA1: ff18bbafffe7da9d2c8a7c542263063869c8e5fb
+SHA256: c517142aa17ded6d541314fa7636e1753b38c3cf2c806818c8da6b1aab92e70a
+Section: Utilities
+Description: A code-searching tool similar to ack, but faster.
+Tag: role::hacker
+Author: Geoff Greer <geoff@greer.fm>
+Depiction: https://github.com/ggreer/the_silver_searcher
+Name: TheSilverSearcher
+
+Package: com.tree.resistor4u
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: resistor4u
+Filename: ./debs/tree.deb
+Size: 26832
+MD5sum: 2381cd25218a33f9cf2c6f4904166e1e
+SHA1: 1daa7a5ed9362b470a16318f2897ba7661ade3b7
+SHA256: f802bad61fd2e1ea21e44d7e597f379c38431bae21d512aed69b77cffb40fdb7
+Section: Utilities
+Description: A tool to visualize directory files and contents.
+Tag: role::hacker
+Author: Steve Baker <ice@mama.indstate.edu>
+Depiction: https://mama.indstate.edu/users/ice/tree
+Name: tree
 
 Package: dsniff
 Version: 2.4b2-1
@@ -134,20 +150,4 @@ Homepage: https://github.com/libuv/libuv
 Description: libuv is a multi-platform support library with a focus on asynchronous I/O.
 Tag: purpose::library, role::hacker, compatible::ios11.4
 Name: libuv
-
-Package: tree
-Version: 1.8.0
-Architecture: iphoneos-arm
-Maintainer: resistor4u
-Filename: ./debs/tree.deb
-Size: 26844
-MD5sum: 35eea1abf529cc576b028e64fb7ea6b7
-SHA1: 64ef56d773d05295d5a1a38e36407552d6e40ce4
-SHA256: e9477b46a922c680e9d19d6adb55ed5c4cf5b241301dd488d49304a536556735
-Section: Utilities
-Description: A tool to visualize directory files and contents.
-Tag: role::hacker
-Author: Steve Baker <ice@mama.indstate.edu>
-Depiction: https://mama.indstate.edu/users/ice/tree
-Name: tree
 
