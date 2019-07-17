@@ -1,0 +1,15 @@
+Package: tree
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: resistor4u
+Filename: debs/tree.deb
+Size: 26340
+MD5sum: 4db41406baf386b25a83874103fa5766
+SHA1: 427616be9e67549564aa47c6f127f853b219ab78
+SHA256: 8858849cf3126a438fd6a674bd4b12df5d226714a525621af759b81e3ffd5e39
+Section: Utilities
+Description: A tool to visualize directory files and contents.
+Tag: role::hacker
+Author: Steve Baker <ice@mama.indstate.edu>
+Depiction: https://mama.indstate.edu/users/ice/tree
+Name: tree
