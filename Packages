@@ -3,7 +3,7 @@ Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
 Depends: pcre
-Filename: ./debs/ag.deb
+Filename: debs/ag.deb
 Size: 24812
 MD5sum: 2a61e157e386a51fe7722f7541c12e03
 SHA1: 4f40a01bb0faecf43bc92af1401dd74500d04145
@@ -20,7 +20,7 @@ Version: 1.8.1-1
 Architecture: iphoneos-arm
 Maintainer: Trcx <trcx528@gmail.com>
 Depends: libpcap
-Filename: ./debs/arp-scan.deb
+Filename: debs/arp-scan.deb
 Size: 226508
 MD5sum: 842bd5db3ef5b78c1a0c476e10df2bc9
 SHA1: 3c530be324e8bfc51d85a8a96e1569922dfa5037
@@ -40,7 +40,7 @@ Architecture: iphoneos-arm
 Maintainer: Trcx <trcx528@gmail.com>
 Conflicts: org.mulliner.dsniff
 Replaces: org.mulliner.dsniff
-Filename: ./debs/dsniff.deb
+Filename: debs/dsniff.deb
 Size: 672912
 MD5sum: 3d8fe851d3127f7748d19688cd73c208
 SHA1: b7a5db18902e830f819a89ed4148f0d597088fc1
@@ -60,7 +60,7 @@ Architecture: iphoneos-arm
 Maintainer: Teggers
 Installed-Size: 684
 Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: ./debs/eu.teggers.netKillUI_0.2.0-1_iphoneos-arm.deb
+Filename: debs/eu.teggers.netKillUI_0.2.0-1_iphoneos-arm.deb
 Size: 261284
 MD5sum: e57b07bd11c33f9ccb43f605864165d4
 SHA1: 9c5bfd7c7c32eeecba7c37ebdcbf783560c6ea13
@@ -93,7 +93,7 @@ Architecture: iphoneos-arm
 Maintainer: Teggers
 Installed-Size: 684
 Depends: arp-scan, dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
-Filename: ./debs/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
+Filename: debs/eu.teggers.netKillUI_0.2.1-1_iphoneos-arm.deb
 Size: 261272
 MD5sum: b311ce42b739b6d18be8b8db74768159
 SHA1: 4f5a8ef0b01298614ad60958c7306623d62ed3bc
@@ -120,11 +120,26 @@ Description: GUI for arp-scan and arp-spoof.
 Author: Teggers
 Name: netKillUIbeta
 
+Package: libuv
+Version: 1.30.1
+Architecture: iphoneos-arm
+Maintainer: resistor4u
+Filename: debs/libuv.deb
+Size: 280360
+MD5sum: 4eedbd80ce4570920c057e6a04152e9d
+SHA1: 0590da3273d4d001a1d09721356f78c9ffa63e87
+SHA256: 0e4ed1cd9ae257fa8d63796910c2c30bffab988c9a48308beea61ddaeaee9f2b
+Section: Utilities
+Homepage: https://github.com/libuv/libuv
+Description: libuv is a multi-platform support library with a focus on asynchronous I/O.
+Tag: purpose::library, role::hacker, compatible::ios11.4
+Name: libuv
+
 Package: tree
 Version: 1.8.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
-Filename: ./debs/tree.deb
+Filename: debs/tree.deb
 Size: 26340
 MD5sum: 4db41406baf386b25a83874103fa5766
 SHA1: 427616be9e67549564aa47c6f127f853b219ab78
