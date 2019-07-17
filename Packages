@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: resistor4u
 Depends: pcre
 Filename: ./debs/ag.deb
-Size: 25580
-MD5sum: 067378aac05a7e372ce8b48c9f1cc586
-SHA1: c47ac2e4fa87d15bd726be80e45ba32cf96beee0
-SHA256: ceeb06fe14d2d94c9841311cde4aa363a6c962c854325db840bbdd77d6a91e84
+Size: 25592
+MD5sum: 34c1f734da26dfd3d639d4d1485b9d4f
+SHA1: c2030f478076e317a157d254c51d4602a83d8f36
+SHA256: 51318ff0564419831a4b9e84833730d829df50c9adca89dbbbf09f9d35132938
 Section: Utilities
 Description: A code-searching tool similar to ack, but faster.
 Tag: role::hacker
@@ -140,10 +140,10 @@ Version: 1.8.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
 Filename: ./debs/tree.deb
-Size: 26960
-MD5sum: 4aa71f51e637f43473ecb62ea25af93a
-SHA1: 0f4210d6794c27039acd5bf4d2143f15d839824e
-SHA256: 07b209b1114c3446e1b0d5d6931e55868ae7fdccbd0aae172fed1dfe86ca8017
+Size: 26844
+MD5sum: 35eea1abf529cc576b028e64fb7ea6b7
+SHA1: 64ef56d773d05295d5a1a38e36407552d6e40ce4
+SHA256: e9477b46a922c680e9d19d6adb55ed5c4cf5b241301dd488d49304a536556735
 Section: Utilities
 Description: A tool to visualize directory files and contents.
 Tag: role::hacker
