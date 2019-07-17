@@ -2,12 +2,12 @@ Package: ag
 Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
-Depends: libpcre
+Depends: pcre
 Filename: ./debs/ag.deb
-Size: 24828
-MD5sum: e04c2bbb844b1b22149b2cba49c76c41
-SHA1: 1eab92c13bafb3cb3102da5e54a4675153791256
-SHA256: 0eae3624cf8ac897cb46fb5bdf1cf294387d58a891e9bfb56fafad96d0f313eb
+Size: 24812
+MD5sum: 2a61e157e386a51fe7722f7541c12e03
+SHA1: 4f40a01bb0faecf43bc92af1401dd74500d04145
+SHA256: e29694f470bfdd62e04d09a48ae508ce130436ec8d3c300c8a6a4911052bf649
 Section: Utilities
 Description: A code-searching tool similar to ack, but faster.
 Tag: role::hacker
