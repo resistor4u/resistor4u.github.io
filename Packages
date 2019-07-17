@@ -17,16 +17,16 @@ Depiction: http://ininjas.com/forum/index.php?topic=2099.0;theme=14
 Name: Arp Scan
 Sponsor: iNinjas <repo@ininjas.com>
 
-Package: com.ag.resistor4u
+Package: com.resistor4u.ag
 Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
 Depends: pcre
 Filename: ./debs/ag.deb
-Size: 25604
-MD5sum: ca0999386bc2397795351c58fe2b56fa
-SHA1: ff18bbafffe7da9d2c8a7c542263063869c8e5fb
-SHA256: c517142aa17ded6d541314fa7636e1753b38c3cf2c806818c8da6b1aab92e70a
+Size: 25592
+MD5sum: c1e4bba387511573d43e4499489ba52b
+SHA1: d27df79f513ef5e997a8a28bd3c0cfa7070961fa
+SHA256: e648efaa1413a6f18bdbf95c677f43aec67910a0bb041a207c2578bbfdc86773
 Section: Utilities
 Description: A code-searching tool similar to ack, but faster.
 Tag: role::hacker
@@ -34,15 +34,15 @@ Author: Geoff Greer <geoff@greer.fm>
 Depiction: https://github.com/ggreer/the_silver_searcher
 Name: TheSilverSearcher
 
-Package: com.tree.resistor4u
+Package: com.resistor4u.tree
 Version: 1.8.0
 Architecture: iphoneos-arm
 Maintainer: resistor4u
 Filename: ./debs/tree.deb
-Size: 26832
-MD5sum: 2381cd25218a33f9cf2c6f4904166e1e
-SHA1: 1daa7a5ed9362b470a16318f2897ba7661ade3b7
-SHA256: f802bad61fd2e1ea21e44d7e597f379c38431bae21d512aed69b77cffb40fdb7
+Size: 26836
+MD5sum: a747df57f86c3a39c53cebc9b2248e68
+SHA1: ffe1dca1b820dd7f5c3f625f6f0011aaf5c4e81a
+SHA256: 9617292f007f4da5e4f301cdaa4f924a749204942084e00342a18e117a41cb6f
 Section: Utilities
 Description: A tool to visualize directory files and contents.
 Tag: role::hacker
