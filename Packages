@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: resistor4u
 Depends: pcre
 Filename: ./debs/ag.deb
-Size: 24812
-MD5sum: 2a61e157e386a51fe7722f7541c12e03
-SHA1: 4f40a01bb0faecf43bc92af1401dd74500d04145
-SHA256: e29694f470bfdd62e04d09a48ae508ce130436ec8d3c300c8a6a4911052bf649
+Size: 25580
+MD5sum: 067378aac05a7e372ce8b48c9f1cc586
+SHA1: c47ac2e4fa87d15bd726be80e45ba32cf96beee0
+SHA256: ceeb06fe14d2d94c9841311cde4aa363a6c962c854325db840bbdd77d6a91e84
 Section: Utilities
 Description: A code-searching tool similar to ack, but faster.
 Tag: role::hacker
@@ -125,10 +125,10 @@ Version: 1.30.1
 Architecture: iphoneos-arm
 Maintainer: resistor4u
 Filename: ./debs/libuv.deb
-Size: 280360
-MD5sum: 4eedbd80ce4570920c057e6a04152e9d
-SHA1: 0590da3273d4d001a1d09721356f78c9ffa63e87
-SHA256: 0e4ed1cd9ae257fa8d63796910c2c30bffab988c9a48308beea61ddaeaee9f2b
+Size: 359208
+MD5sum: 95716cfcd7254f3dcbb83f2a1290e1a3
+SHA1: e5cf84c49cac8ff0eec9ccb65a3c1f45b46ede52
+SHA256: ca1c9e5939c1c662feedd6ef17abb7713740d7e3025d4751eeb7e40459a4b4eb
 Section: Utilities
 Homepage: https://github.com/libuv/libuv
 Description: libuv is a multi-platform support library with a focus on asynchronous I/O.
